@@ -1,0 +1,13 @@
+---
+
+applications:
+- name: producer
+  memory: 750M
+  instances: 1
+  buildpack: java_buildpack
+  path: build/libs/producer.jar
+  routes:
+  - route: boston-producer.cfapps.io
+  services:
+  - config-server
+  

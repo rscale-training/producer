@@ -10,7 +10,7 @@ public class ProducerController {
 
 	@RequestMapping(value = "/", method = RequestMethod.GET, produces = "application/json")
 	public @ResponseBody ProducerModel message() {
-		return new ProducerModel("Hi There!");
+		return new ProducerModel("Your microservices are Bootiful!");
 	}
 	
 }

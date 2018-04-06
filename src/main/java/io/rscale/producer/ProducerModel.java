@@ -18,6 +18,4 @@ public class ProducerModel {
 		this.message = message;
 	}
 	
-	
-	
 }
